@@ -1,18 +1,11 @@
-#
-# Example file for working with os.path module
-# LinkedIn Learning Python course by Joe Marini
-#
-
-import os
-from os import path
-import datetime
-from datetime import date, time, timedelta
+from os import name, path
+from datetime import datetime
 import time
 
 
 def main():
     # Print the name of the OS
-    print(os.name)
+    print(name)
 
     # Check for item existence and type
     print("Item exists: {}".format(path.exists("textfile.txt")))
@@ -28,10 +21,10 @@ def main():
     # Get the modification time
     t = time.ctime(path.getmtime("textfile.txt"))
     print(t)
-    print(datetime.datetime.fromtimestamp(path.getmtime("textfile.txt")))
+    print(datetime.fromtimestamp(path.getmtime("textfile.txt")))
 
     # Calculate how long ago the item was modified
-    td = datetime.datetime.now() - datetime.datetime.fromtimestamp(path.getmtime("textfile.txt"))
+    td = datetime.now() - datetime.fromtimestamp(path.getmtime("textfile.txt"))
     print("It has been {} since the file was modified".format(td))
     print("Or, {} seconds".format(td.total_seconds()))
 

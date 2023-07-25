@@ -1,7 +1,3 @@
-# LinkedIn Learning Python course by Joe Marini
-#
-
-
 # TODO: import the math module, which contains features for working with mathematics
 import math
 

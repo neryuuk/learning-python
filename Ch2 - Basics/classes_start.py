@@ -1,8 +1,3 @@
-#
-# Example file for working with classes
-# LinkedIn Learning Python course by Joe Marini
-#
-
 class Vehicle():
     def __init__(self, bodystyle):
         self.bodystyle = bodystyle
