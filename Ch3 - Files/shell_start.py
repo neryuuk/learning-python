@@ -1,8 +1,3 @@
-#
-# Example file for working with filesystem shell methods
-# LinkedIn Learning Python course by Joe Marini
-#
-
 import os
 import shutil
 from os import path

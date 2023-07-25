@@ -1,8 +1,3 @@
-#
-# Example file for working with loops
-# LinkedIn Learning Python course by Joe Marini
-#
-
 def main():
     x = 0
 

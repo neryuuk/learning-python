@@ -1,8 +1,3 @@
-#
-# Example file for working with conditional statements
-# LinkedIn Learning Python course by Joe Marini
-#
-
 def main():
     x, y = 10, 100
 
